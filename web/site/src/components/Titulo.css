@@ -1,0 +1,15 @@
+.title-area {
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 40px;
+    margin: 0;
+    color: #3a4867de;
+    font-weight: bold;
+}
+
+.title-description {
+    font-size: 15px;
+    margin: 0;
+}
