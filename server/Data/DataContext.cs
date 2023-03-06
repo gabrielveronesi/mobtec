@@ -10,5 +10,5 @@ namespace server.Data
         public DbSet<Casa> Casas { get; set; }
          public DbSet<Foto> Fotos { get; set; }
 
-    }
+    }ssssssssssssssssss
 }
