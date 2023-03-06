@@ -65,11 +65,12 @@ const ListaImoveis = () => {
                                     </div>
                                     <div className="item-description">
                                         <div className="d-flex justify-content-between mb-3">
-                                            <span className="item-title">{casa.idCasa}</span>
+                                            <span className="item-title">{casa.titulo}</span>
+                                            <span className="item-price">R${casa.valor.toLocaleString('pt-br', {minimumFractionDigits: 2})}</span>
                                         </div>
                                         <div className="item-icon d-flex alig-items-center justify-content-between">
                                             <div>
-                                                <i className="fas fa-check-circle"></i> <span>{page}</span>
+                                                <i className="fas fa-check-circle"></i> <span>{casa.pequenaDescricao}</span>
                                             </div>
                                             <div className="item-title">
                                                 <button className="btn btn-detail">Visualizar</button>
