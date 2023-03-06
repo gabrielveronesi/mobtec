@@ -33,7 +33,7 @@ const Banner = () => {
                                         onChange={(ev) => setBusca(ev.target.value)}
                                     />
                                     <button className="btn-search m-2">Procurar</button>
-                                </div>
+                                </div>aaaaaaaaaaaaaaaa
                             </div>
                         </div>
                     </div>
